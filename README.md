@@ -1,6 +1,4 @@
-# Assignment 02 -  Web Chat Server
-Course:
-CSCI 2020U - Software Systems Development and Integration
+# Web Chat Server
 
 ## Table of Contents
 1.[Project Information](#project-information)<br>
@@ -10,9 +8,7 @@ CSCI 2020U - Software Systems Development and Integration
 
 ## Project Information
 
-
 This project involves creating a web chat server using WebSockets and HTML/CSS/JS in a Java Web Application project. The chat server can hold multiple chatrooms working synchronously and independent of each other. Each chatroom has an automatically generated code, and users are able to either create a new chatroom or join an existing one. The server directly greets users who enter a chatroom, and announces their entrances to everyone in the chatroom. Users are able to send and receive messages in the chatroom in real-time. Every message is time-stamped. Our own improvements are listen below, in the [Improvements](#improvements) section.
-
 
 Group Members:
 - Alan Ward<br>
@@ -25,7 +21,7 @@ Video of The Application Running:<br>
 https://github.com/OntarioTech-CS-program/w24-csci2020u-assignment02-alhadi-hu-juan-ward/assets/114015131/317f1247-510c-4600-9b83-f12af14943e6
 
 <br>
-Just in case the video does not play here, the video file of the screen recording is also provided at 'images/ScreenRecordings/Assignment2SubmissionVideo'.
+The video file of the screen recording is also provided at 'images/ScreenRecordings/Assignment2SubmissionVideo'.
 <br>
 
 ## Improvements
@@ -51,8 +47,6 @@ Just in case the video does not play here, the video file of the screen recordin
     - Users are able to select a png or jpeg file from their system and upload it to their client. When they click the send button, the image is encoded in base64, sent as a JSON message to server where it is sent to every client that is in the chatroom. The client decodes the image and displays in the chatroom.
       <br><br>
 - Chat History (incomplete, code exists but is commented out)
-    -  Saves the chat history whenever anyone sends a message. Anyone who joins the chatroom at whatever time can see the previous conversations. Used and modified chat history code from lecture. Unable to complete due to lack of time.
-
 
 ## How to Run
 
@@ -108,7 +102,6 @@ Before being able to run the application, you need to clone this repository from
 
 ## Contribution Report
 ### Contributions:
-**All group members contributed relatively equally**
 - Ali Hu:
     - implemented back-end message handling/sending including:
     - username entry, message handling/sending, creating rooms, adding/deleting/refreshing users, refreshing rooms
